@@ -1,6 +1,6 @@
 const {createApp} = Vue;
 
-const index = createApp({
+const upComing = createApp({
 	data() {
 		return {
 			eventos: {},
@@ -29,4 +29,4 @@ const index = createApp({
 	},
 });
 
-index.mount('#mainVue');
+upComing.mount('#mainVue');

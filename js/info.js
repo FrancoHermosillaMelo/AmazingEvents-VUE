@@ -1,6 +1,6 @@
 const {createApp} = Vue;
 
-const index = createApp({
+const info = createApp({
 	data() {
 		return {
 			params: '',
@@ -22,4 +22,4 @@ const index = createApp({
 	},
 });
 
-index.mount('#mainVue');
+info.mount('#mainVue');

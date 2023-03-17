@@ -1,6 +1,6 @@
 const {createApp} = Vue;
 
-const index = createApp({
+const stats = createApp({
 	data() {
 		return {
 			resultadoMenorPorcentajeAsis: '',
@@ -66,4 +66,4 @@ const index = createApp({
 	},
 });
 
-index.mount('#mainVue');
+stats.mount('#mainVue');
